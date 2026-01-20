@@ -19,7 +19,7 @@ FROM
 
 
 
--- Q.3  Identify the highest-priced pizza.
+-- Q.3 Identify the highest-priced pizza.
 
 SELECT 
     pizza_types.name, pizzas.price
@@ -32,7 +32,7 @@ LIMIT 1;
 
 
 
--- Q.4Identify the most common pizza size ordered.
+-- Q.4 Identify the most common pizza size ordered.
 
 SELECT 
     pizzas.size, COUNT(pizzas.size) as order_count
@@ -77,7 +77,7 @@ ORDER BY quantity DESC;
 
 
 
--- Q.7Determine the distribution of orders by hour of the day.
+-- Q.7 Determine the distribution of orders by hour of the day.
 
 SELECT 
     HOUR(order_time) as hour, COUNT(order_id) as order_count
