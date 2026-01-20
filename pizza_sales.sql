@@ -1,5 +1,3 @@
-sql 1st pizza
-
 -- Q.1 Total number of orders placed
 
 SELECT 
